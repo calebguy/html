@@ -1,5 +1,4 @@
 @import "./reset.css";
-@import "./font.css";
 
 @font-face {
   font-family: 'Recia-Medium';
@@ -17,8 +16,8 @@ h1 {
   font-size: 2rem;
 }
 
-.text-8xl {
-  font-size: 6rem;
+.text-6xl {
+  font-size: 3.75rem;
 }
 
 .text-red {
@@ -97,7 +96,7 @@ h1 {
 }
 
 .mt-16 {
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .border-solid {
@@ -166,8 +165,28 @@ h1 {
     flex-direction: row!important;
   }
   .md_w-50 {
-    width: 50%!important;
+    width: 50% !important;
   }
+  .md_text-9xl {
+    font-size: 8rem !important;
+    line-height: 1;
+  }
+  .md_mt-36 {
+    margin-top: 9rem!important;
+  }
+}
+
+.mt-75px {
+  margin-top: 75px;
+}
+
+.mb-36 {
+  margin-bottom: 9rem!important;
+}
+
+.my-36 {
+  margin-top: 9rem;
+  margin-bottom: 9rem;
 }
 
 .w_150px {
@@ -185,3 +204,4 @@ h1 {
 .max-w-750px {
   max-width: 750px;
 }
+
